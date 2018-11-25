@@ -1,0 +1,108 @@
+---
+title: Projects
+description: This is a selection of open source and commercial projects I realized in the last years
+---
+
+
+<article class='TimelineItem'>
+  <aside class='TimelineItem-pics -projects-le'>
+    <%= image_tag 'projects/orderjames.png' %>
+  </aside>
+
+  <section class='TimelineItem-details'>
+  <h2><a href='https://www.orderjames.at'>Orderjames</a></h2>
+  <h3>A web-based point-of-sale system</h3>
+  <p>Orderjames is not a standalone point-of-sale system, but acts as an extension of the products from <a href="https://www.finanzkasse.at">Finanzkasse</a>.
+  From a technical point-of-view, it is a web-based system and can be started from the mobile browser. Dock it to the home screen to remove the address bar and get a custom app-feeling.
+    Orderjames is realized as a single-page-application hence does all the loading upfront, and does not suffer from reduced performance as many other systems do.
+  </p>
+    <p>To also directly support devices like mobile printers or mobile credit card terminals, we also provide an app which encapsulates Orderjames and injects native capabilities into the web application</p>
+    <p>This is an ongoing project and is actively development.</p>
+
+  <p>
+    <a href='https://www.orderjames.at' class='Btn'>
+      Website
+    </a>
+    <a href='https://play.google.com/store/apps/details?id=com.wiffzack.orderjamesonandroid' class='Btn'>
+      Play Store
+    </a>
+  </p>
+</section>
+</article>
+
+<article class='TimelineItem'>
+  <aside class='TimelineItem-pics -projects-le'>
+    <%= image_tag 'projects/finanzkasse.png' %>
+  </aside>
+
+  <section class='TimelineItem-details'>
+    <h2><a href='https://www.finanzkasse.at'>Finanzkasse</a></h2>
+    <h3>Point-of-sale system</h3>
+    <p>At <a href="https://www.finanzkasse.at">finanzkasse.at</a> we offer a complete point-of-sale system, primarily for the Austrian market</p>
+    <p>The system contains of several components with a clear separation of responsibilities: Configuration application as a central point to add all the configuration and data, Query to perform statistical analysis, Terminal to take orders.
+      The whole system is following a client-server approach, of course offering multi-terminal support.</p>
+
+    <p>A central point of point-of-sale system, especially when targeting the hospitality industry (e.g. restaurants, bars,...), is to connect to supporting devices like coffee machines
+    dispension units, credit card terminals, waiter locks, barcode scanners, various printers and so on.
+    Futhermore we integrated (besides our own Orderjames solution) other commonly used mobile terminals.</p>
+
+    <p>This also is an ongoing project and is extended and improved continuously.</p>
+
+    <p>
+      <a href='https://www.finanzkasse.at' class='Btn'>
+        Website
+      </a>
+
+    </p>
+  </section>
+</article>
+
+<article class='TimelineItem'>
+  <aside class='TimelineItem-pics -projects-le'>
+    <%= image_tag 'projects/ebilly.png' %>
+  </aside>
+
+<section class='TimelineItem-details'>
+  <h2><a href='https://play.google.com/store/apps/details?id=at.weblogic.ebilly&hl=en'>EBilly</a></h2>
+  <h3>EBilly - validate your receipts</h3>
+  <p>A new Austrian regulation in 2016 obliged all shops in Austria to digitally sign their receipts.
+  The signature is, in most cases, encoded as QRCode and printed on the receipt. Customers have no way of verifying the signature.
+  EBilly uses publicly available data from the registered certificate authorities and company registers to cryptographically verify the receipt data,
+    and collects the company information.
+  </p>
+
+  <p>
+    <a href='https://play.google.com/store/apps/details?id=at.weblogic.ebilly&hl=en' class='Btn'>
+      Play Store
+    </a>
+  </p>
+</section>
+</article>
+
+
+<article class='TimelineItem TimelineItem--fadeIn'>
+  <aside class='TimelineItem-pics'>
+    <%= image_tag 'projects/libecterm.png' %>
+  </aside>
+
+  <section class='TimelineItem-details'>
+    <h2><a href='https://github.com/areiter/libecterm'>libecterm</a></h2>
+    <h3>Library to comunicate with credit card terminals</h3>
+    <p>Libecterm is a .net library implementing the ZVT protocol to communicate with credit card terminals.
+      The ZVT protocol is used by major payment companies in Europe for the comunication of credit-card terminals with point-of-sale systems.</p>
+    <p>The commercial version of this library has extended command support and also includes support for other terminals not supporting the ZVT protocol</p>
+
+    <p>
+      <a href='https://github.com/areiter/libecterm' class='Btn Btn--source'>
+        Source
+      </a>
+    </p>
+  </section>
+</article>
+
+
+<article class='TimelineItem TimelineItem--topLink'>
+  <section class='TimelineItem-footer'>
+    <h3><a>Take me back to the top!</a></h3>
+  </section>
+</article>

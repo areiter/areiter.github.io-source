@@ -1,0 +1,165 @@
+---
+title: Andreas Reiter - IT Security Expert
+description: This is the personal page of Andreas Reiter
+scripts:
+  - home/title
+---
+
+<% content_for(:header) do %>
+  <section class='Me'>
+    <section class='Me-mugshot'>
+      <%= image_tag 'home/me.jpg' %>
+    </section>
+
+    <section class='Me-blurb'>
+      <h2>Andreas Reiter</h2>
+      <h4>During the day I'm a system security architect and software engineer,</h4>
+      <h4 class="at-night">at night I'm creating my own products and giving other's advice</h4>
+
+
+      <section class='Me-social'>
+        <a href='mailto:contact@andreasreiter.info' id='link-email' class="fade-in">
+          <%= partial '/assets/images/icons/mail.svg' %>
+        </a>
+        <a href='https://linkedin.com/in/anreiter' id='link-linkedin' target="_blank" class="fade-in">
+          <%= partial '/assets/images/icons/linkedin.svg' %>
+        </a>
+        <a href='https://keybase.io/areiter' id='link-keybase' target="_blank" class="fade-in">
+          <%= partial '/assets/images/icons/keybase2.svg' %>
+        </a>
+      </section>
+    </section>
+  </section>
+<% end %>
+
+
+
+<article class='TimelineItem'>
+  <aside class='TimelineItem-pics TimelineItem-pics--jelly'>
+    <%= image_tag 'home/andreasreiter.info.png' %>
+  </aside>
+
+  <section class='TimelineItem-details'>
+    <h2>Self-employed and small-business owner since 2010</h2>
+    <p>Since 2010 I have realized several <%= link_to 'software-related projects', '/projects' %> and created a small business developing point-of-sale cash registers.</p>
+    <p>Due to my experience in applied cryptography, protocols, architecture and distributed system I'm also supporting firms in security analysis. <a href='mailto:contact@andreasreiter.info'>Contact me</a> if you need assitance </p>
+  </section>
+</article>
+
+<article class='TimelineItem'>
+  <aside class='TimelineItem-pics TimelineItem-pics--jelly'>
+    <%= image_tag 'home/siemens.jpg' %>
+  </aside>
+
+  <section class='TimelineItem-details'>
+    <h2>Siemens - Digital Factory</h2>
+    <p>Siemens is a global leader in Industry 4.0. With <a href="https://siemens.mindsphere.io">Mindsphere</a> Siemens is creating an open ecosystem for Industry 4.0 big data analysis to improve and optimize workflows, processes and maintenance cycles.</p>
+  </section>
+</article>
+
+<article class='TimelineItem'>
+  <aside class='TimelineItem-pics TimelineItem-pics--jelly'>
+  </aside>
+
+  <section class='TimelineItem-details'>
+    <h3>System security architect, since 2018/11</h3>
+    <p>I am responsible for designing new system architectures for environments where security and data privacy is the top priority. This involves researching and developing new approaches, as well as performing threat and risk analysis for architectures and providing recommendations.</p>
+  </section>
+</article>
+
+
+<article class='TimelineItem'>
+  <aside class='TimelineItem-pics TimelineItem-pics--jelly'>
+  </aside>
+  <section class='TimelineItem-details'>
+    <h3>Security test architect, 2018/05 - 2018/11</h3>
+    <p>I was responsible for improving the infrastructure setup and workflows for automated security testing in a highly dynamic environment following a micro-service architecture.</p>
+  </section>
+</article>
+
+
+<article class='TimelineItem'>
+  <aside class='TimelineItem-pics TimelineItem-pics--jelly'>
+    <%= image_tag 'home/xitrust.gif' %>
+  </aside>
+
+  <section class='TimelineItem-details'>
+    <h2>XiTrust Secure Technologies</h2>
+    <p>XiTrust provides an on-premise digital signature folder application allowing to sign digital documents in a legally binding way.</p>
+  </section>
+</article>
+<article class='TimelineItem'>
+  <aside class='TimelineItem-pics TimelineItem-pics--jelly'>
+  </aside>
+  <section class='TimelineItem-details'>
+    <h3>Project Manager and Technical Consultant, 2018</h3>
+    <p>I was responsible for solving customer integration challenges and was in constant communication with the customer to identify its requirements and preprocessing the requirements for the development teams.</p>
+  </section>
+</article>
+<article class='TimelineItem'>
+  <aside class='TimelineItem-pics TimelineItem-pics--jelly'>
+  </aside>
+  <section class='TimelineItem-details'>
+    <h3>Software engineer, 2011 - 2013</h3>
+    <p>The first time I was involved with XiTrust, I was working as a software engineer on customer projects, extending their mailing system according to the customers needs.</p>
+  </section>
+</article>
+
+<article class='TimelineItem'>
+  <aside class='TimelineItem-pics  TimelineItem-pics--jelly'>
+    <%= image_tag 'home/iaik.png' %>
+  </aside>
+
+  <section class='TimelineItem-details'>
+    <h2><a href='http://iaik.tugraz.at/'>IAIK - Graz University of Technology</a></h2>
+    <h3>Information Security Researcher, 2013 – 2017</h3>
+    <p>At IAIK I was doing information security research in the fields of: Cloud Computing, Edge Computing, eGovernment, Distributed Systems and digital signatures. The duties and challenges are manifold. I not only worked on and completed my PhD, but also participted in several key roles in international research projects: </p>
+
+
+    <section class='TimelineProjectArea'>
+      <section class='TimelineProjectArea-thumb'>
+          <%= image_tag 'projects/iaik/sunfish.png' %>
+      </section>
+      <section class='TimelineProjectArea-details'>
+        <h4>H2020 SUNFISH, 2015 - 2017</h4>
+        <p>SUNFISH is a secure cloud federation framework, respecting the needs of the public secrot. I was responsible for one technical work package, dealing with and developing the core technologies in the project.</p>
+      </section>
+
+      <section class='TimelineProjectArea-thumb'>
+        <%= image_tag 'projects/iaik/oasis.jpg' %>
+      </section>
+      <section class='TimelineProjectArea-details'>
+        <h4>OASIS DSS-X Standardization - 2014/10 - 2016/07</h4>
+        <p>Participated in advancing the current state-of-the-art OASIS-DSS signature profile to be inline with STORK eID requirements.</p>
+      </section>
+
+      <section class='TimelineProjectArea-thumb'>
+        <%= image_tag 'projects/iaik/cloudforeurope.jpeg' %>
+      </section>
+      <section class='TimelineProjectArea-details'>
+        <h4>FP7 Cloud for Europe, 2013 - 2015</h4>
+        <p>Cloud for Europe supports public sector cloud use as collaboration between public authorities and industry. The project identifies obstacles, finds innovative solutions and builds trust in European cloud computing.
+
+          I was responsible for requirement engineering and settling the scene to release the PCP tender.</p>
+      </section>
+
+      <section class='TimelineProjectArea-thumb'>
+        <%= image_tag 'projects/iaik/stork2.0.png' %>
+      </section>
+      <section class='TimelineProjectArea-details'>
+        <h4>STORK 2.0, 2013 - 2014</h4>
+        <p>Secure idenTity acrOss boRders linKed 2.0 contributes to the realization of a single European electronic identification and authentication area.
+          It builds on the results of STORK, establishing interoperability of different approaches at national and EU level, eID for persons, eID for legal entities.
+          I was part of the development team, realizing eID federation functionality.</p>
+      </section>
+    </section>
+  </section>
+</article>
+
+
+<article class='TimelineItem TimelineItem--topLink'>
+  <section class='TimelineItem-footer'>
+    <h3><a>Take me back to the top!</a></h3>
+  </section>
+</article>
+
