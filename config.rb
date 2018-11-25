@@ -48,8 +48,3 @@ configure :development do
   end
 end
 
-# Redirects
-redirect 'projects/justvector_icons.html', to: '/projects/justvector-icons'
-redirect 'projects/animate-textshadow.html', to: '/projects#legacy'
-redirect 'projects/feedback_button.html', to: '/projects#legacy'
-redirect 'hp.html', to: '/talks/hp'
